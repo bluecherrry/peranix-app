@@ -1,0 +1,88 @@
+.container-hero {
+    background-color: black;
+    width: 100%;
+    height: auto; color: white;
+}
+.container-hero img{
+    width: 70%;
+    height: auto;
+    margin-left: 10%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.hero-text{
+font-size: 2rem;
+float: right;
+position: absolute;
+top: 0;right: 0;
+margin-top: 4rem;
+margin-right: 6rem;
+padding: 3rem ;
+text-align: right;
+width: 600px; }
+
+.hero-text h1{
+    color: white;font-weight: 900;margin-top: 1rem;
+   font-size: 3rem;
+}
+
+.hero-button{
+    float: left;color: red;
+   position: absolute;
+  bottom: 8rem;left: 20%;margin-left: 1rem;
+   padding: 0.5rem 1rem;margin: 10px;
+}
+.hero-button button:nth-child(2) {
+    color: red;
+    background-color: white;
+}
+.hero-button button:nth-child(2):hover{
+    background-color: red;color: white;border: none;
+}
+.hero-button button:first-child:hover{
+    color: red;
+    background-color: white; 
+}
+.down{
+    text-align: center;color: red;
+    font-size: 3rem;position: relative;bottom: 3rem;
+}
+@media only screen and (max-width: 900px) {
+    .hero-text h1{
+        color: white;font-weight: 900;margin-top: 2rem;margin-right: 0.3rem;
+      
+    }
+    .hero-text{
+    font-size: 1.5rem;
+    text-align: right;
+    position: absolute;
+    right: 0;width: 100%;
+    padding: 0;top: 10%;left: 0;
+}
+.hero-button button{
+    width: 8rem;height: 3rem;
+}
+.container-hero {
+    background-color: black;
+    width: 100%;text-align: center;
+    height: 30rem; color: white;
+}
+.hero-button{
+color: red;
+   position: absolute;
+  bottom: 20%;
+   padding: 1rem ;margin: 10px;
+   
+}
+.down{
+    text-align: center;color: red;bottom: 0;
+    font-size: 3rem;position: absolute;left: 50%;
+}
+}
+@media screen and (max-width: 900px) {
+    .down{
+        text-align: center;color: red;bottom: -10;
+    font-size: 3rem;position: absolute;left: 50%;   
+    }}

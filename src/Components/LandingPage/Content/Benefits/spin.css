@@ -1,0 +1,69 @@
+.play-circle {
+    position: relative;
+    padding-top: 90px;
+}
+div{
+    display:block;
+}
+.circle-wrap img.triangles {
+    
+    animation-duration: 400s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rotateInverse;
+}
+.circle-wrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+img .rays{animation: rotateInverse 2s ease-in-out infinite;}
+.rays {
+    
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rotateInverse;
+}
+.mobshow {
+    display: none;
+}
+.play-circle>img {
+    position: relative;
+    z-index: 3;
+}
+.play-circle img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.circle-wrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.circle-wrap {
+    width: 710px;
+    max-width: 100%;
+    height: 545px;
+    position: absolute;
+    top: -45px;
+    left: 26px;
+    z-index: 2;
+}
+@keyframes rotateInverse {
+    0%{
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(-720deg);
+    }
+}

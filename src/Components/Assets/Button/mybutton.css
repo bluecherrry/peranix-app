@@ -1,0 +1,60 @@
+
+
+.btn1{
+    background-color: red;
+    border: 1px solid red;
+    margin-left: 2rem;
+    text-align: center;
+    height: 5rem;width: 12rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+   margin-bottom: 20%;
+   position: relative;
+
+}
+
+.btn{
+    background-color: red;
+    border: 1px solid red;
+    margin-left: 2rem;
+    text-align: center;
+    height: 5rem;width: 12rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+
+}
+@media only screen and (max-width: 750px) {
+    .btn1{
+        background-color: red;
+        border: 1px solid red;
+        margin-left: 2rem;
+        text-align: center;
+        height: 5rem;width: 5rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+
+    
+    .btn{
+        background-color: red;
+        border: 1px solid red;
+       
+        text-align: center;
+        width: 12rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+
+
+}

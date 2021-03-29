@@ -1,0 +1,67 @@
+.question-body{
+    width: 100%;
+    height: 25rem; 
+    background-image: url(https://peranix.com/wp-content/uploads/2019/10/FAQ-back-1.2.png?id=4134)!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.question-body span {
+    font-size: 60px !important;
+    font-weight:900 !important;
+    color: white;
+}
+.vc_row.vc_row-o-content-middle:not(.vc_row-o-equal-height)>.vc_column_container {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.vc_row.vc_row-flex>.vc_column_container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.vc_column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+@media (min-width: 768px){
+.vc_col-sm-12 {
+    width: 100%;
+}
+
+}
+@media screen and (max-width : 900px){
+    .wpb_wrapper p{
+        margin-top: 30%;
+        
+        background: coral;
+    }
+    
+ .question-body p{
+     
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+     
+ 
+.question-body span{
+font-size: 30px !important;
+
+}   
+}

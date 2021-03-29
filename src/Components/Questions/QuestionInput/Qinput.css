@@ -1,0 +1,94 @@
+.header-question {
+    text-align:center;
+    color: white;
+    width: 100%;
+    direction: rtl;
+   
+}
+.header-question h1{
+    color: white;
+    font-weight: 900;
+}
+.form-question{
+    color: rgb(0, 0, 0);
+    width: 10cm;
+    height: 3rem;
+    text-align: right;
+}
+
+.form-validation h3 {
+    text-align: right;
+}
+.text-area {
+    
+    width: 98%;
+    margin-right: 60px;
+    text-align: right;
+    border-radius: 5px!important;
+}
+
+.required-label p{
+    color: white;
+   font-size: 20px;   
+}
+.ant-input {
+padding: 16px 22px;
+border-radius: 5px;
+margin-right: 10px;
+
+}
+.validatin {
+   color: white;
+    text-align: right; 
+}
+.form-validation label {
+    margin-bottom: 20px;
+    margin-top: 22px;
+}
+
+.ant-form-item-label > label {
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+}
+ .ant-form-item-label{
+    background: rgb(156, 76, 76);
+    position: relative  ;margin-bottom: 20px;
+    right: 0;z-index: 88;
+    
+}
+.ant-form-item-label p {
+    font-size: 18px;
+}
+.header-question  {
+    font-size: 18px;
+    margin-top: 10%;
+}
+.ant-form-item-control-input-content{
+    text-align: center;
+}
+.btn-submit{
+    background-color: red;
+    color: white;border: none;
+    width: 20;
+    
+}
+.btn-submit >span {
+    position: relative;
+}
+.btn-submit:hover{
+    background-color: white;color: black;
+}
+@media screen and (max-width:600px) {
+    .text-area {
+        width: 100%;
+        margin: 15px 10px;
+       text-align: right;
+        border-radius: 5px!important;
+    }
+}

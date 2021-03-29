@@ -1,0 +1,42 @@
+.wrapper-container{
+    text-align: center;
+    
+    background-color: black;
+}
+.wrapper-container h1 {
+    padding: 2rem;
+    color: white;
+    font-size: 2rem;
+   
+    
+}
+
+.wrapper-image{
+    /* width: 50%; */
+    margin-top: 2rem;
+    height: auto;
+    vertical-align: middle;
+    max-width: 50%;
+margin-bottom: 3rem;}
+
+.wrapper-container .seprator{
+    background-color: rgb(0, 0, 0);
+    padding: 0.01rem;
+    border-top: 1px solid red;
+    width: 50%;left: 25%;
+    position: absolute;
+    height: 1px;
+    color: white;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .wrapper-image{
+        /* width: 50%; */
+        height: auto;
+        vertical-align: middle;
+        max-width: 100%;} 
+        .wrapper-container{
+            margin-top: 40%;
+        }
+}
