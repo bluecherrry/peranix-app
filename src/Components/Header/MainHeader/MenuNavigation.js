@@ -30,7 +30,7 @@ function MenuNavigation() {
     {
       id: '2',
       nav: '   تست سرعت اینترنت   ',
-      link: '/test'
+      link: '/oops'
     },
     {
       id: ' 3',
@@ -40,7 +40,7 @@ function MenuNavigation() {
     {
       id: '4 ',
       nav: '    درباره ما    ',
-      link: '/about '
+      link: '/oops '
     },
 
   ]

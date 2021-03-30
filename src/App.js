@@ -10,6 +10,8 @@ import QuestionPage from './Components/Questions/QuestionPage'
 import RegisterPage from './Components/Register/RegisterPage';
 import HeaderMain from './Components/Header/MainHeader/HeaderMain';
 import FooterMain from './Components/Footer/FooterMain';
+import NotFound from './Components/NotFound/NotFound';
+
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/" exact component={LandingPage} />
         <Route path="/questions/questionpage" component={QuestionPage} />
         <Route path="/register/registerpage" component={RegisterPage} />
+        <Route  component={NotFound} />
+        <Route  component={NotFound} />
       </Switch>
       <FooterMain/>
     </Router>
